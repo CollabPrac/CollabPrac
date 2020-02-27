@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\mousemoveobj.cs" />
     <Compile Include="Assets\Scripts\ogcolourschanger1.cs" />
     <Compile Include="Assets\Scripts\rightButtonClick.cs" />
+    <Compile Include="Assets\Scripts\Timerr.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/james/Documents/Collab Practice/CollabPrac/collabtest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
