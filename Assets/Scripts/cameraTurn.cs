@@ -23,24 +23,24 @@ public class cameraTurn : MonoBehaviour
         rotation = camera.transform.rotation.y;
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            //if (canTurnLeft == true)
-            //{
-            //    transform.Rotate(new Vector3(0, -1, 0) * 30f * Time.deltaTime);
-            //    canTurnRight = true;
-            //}
-            TurnLeft();
+            if (canTurnLeft == true)
+            {
+                transform.Rotate(new Vector3(0, -1, 0) * 30f * Time.deltaTime);
+                canTurnRight = true;
+            }
+            //TurnLeft();
 
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            //if (canTurnRight == true)
-            //{
-            //    transform.Rotate(new Vector3(0, 1, 0) * 30f * Time.deltaTime);
-            //    canTurnLeft = true;
-            //}
+            if (canTurnRight == true)
+            {
+                transform.Rotate(new Vector3(0, 1, 0) * 30f * Time.deltaTime);
+                canTurnLeft = true;
+            }
 
-            TurnRight();
+            //TurnRight();
         }
 
         if (rotation >= rotateWall)
@@ -58,7 +58,7 @@ public class cameraTurn : MonoBehaviour
     {
         if (canTurnLeft == true)
         {
-            transform.Rotate(new Vector3(0, -1, 0) * 30f * Time.deltaTime);
+            transform.Rotate(new Vector3(0, -7, 0) * 30f * Time.deltaTime);
             canTurnRight = true;
         }
     }
@@ -67,7 +67,7 @@ public class cameraTurn : MonoBehaviour
     {
         if (canTurnRight == true)
         {
-            transform.Rotate(new Vector3(0, 1, 0) * 30f * Time.deltaTime);
+            transform.Rotate(new Vector3(0, 7, 0) * 30f * Time.deltaTime);
             canTurnLeft = true;
         }
     }

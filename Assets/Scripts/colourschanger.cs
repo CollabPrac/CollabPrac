@@ -23,18 +23,26 @@ public class colourschanger : MonoBehaviour
         SecondCanvas.gameObject.SetActive(false);
     }
 
+    void Update()
+    {
+        //If the left mouse button is clicked, Switches camera and canvas.
+        if (mouseOver == true)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("test");
+                Main.gameObject.SetActive(false);
+                Secondary.gameObject.SetActive(true);
+                MainCanvas.gameObject.SetActive(false);
+                SecondCanvas.gameObject.SetActive(true);
+            }
+        }
+    }
+
     void OnMouseEnter()
     {
         mouseOver = true;
         GetComponent<Renderer>().material.SetColor("_Color", mouseOverColor);
-        //If the left mouse button is clicked, Switches camera and canvas.
-        if (Input.GetMouseButtonDown(0))
-        {
-            Main.gameObject.SetActive(false);
-            Secondary.gameObject.SetActive(true);
-            MainCanvas.gameObject.SetActive(false);
-            SecondCanvas.gameObject.SetActive(true);
-        }
     }
     void OnMouseExit()
     {
