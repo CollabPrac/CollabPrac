@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class collectItem : MonoBehaviour
 {
+    public sceneController sceneController;
     public Color startColor;
     public Color mouseOverColor;
     bool mouseOver = false;
@@ -13,6 +14,7 @@ public class collectItem : MonoBehaviour
     private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("InventoryObject").GetComponent<Inventory>();
+        sceneController = sceneController.GetComponent<sceneController>();
     }
 
     void Update()
@@ -23,7 +25,7 @@ public class collectItem : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 Debug.Log("Down");
-                
+                sceneController.CanComputer = true;
                 for (int i = 0; i < inventory.slots.Length; i++)
                 {
                     Debug.Log("inv 1");
