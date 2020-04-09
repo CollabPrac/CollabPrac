@@ -13,6 +13,7 @@ public class sceneController : MonoBehaviour
     public Canvas SecondCanvas;
     public Canvas InventoryCanvas;
     public Canvas ComputerCanvas;
+    public GameObject ItemImage;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class sceneController : MonoBehaviour
         SecondCanvas.gameObject.SetActive(false);
         InventoryCanvas.gameObject.SetActive(true);
         ComputerCanvas.gameObject.SetActive(false);
+        ItemImage.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
