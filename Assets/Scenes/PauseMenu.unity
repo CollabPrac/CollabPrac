@@ -370,7 +370,7 @@ PrefabInstance:
     - target: {fileID: 6327646090343097808, guid: 7ca56101eb350fb479ee25b82dd91ce9,
         type: 3}
       propertyPath: m_Name
-      value: Startmenu
+      value: PauseMenu
       objectReference: {fileID: 0}
     - target: {fileID: 6327646090343097815, guid: 7ca56101eb350fb479ee25b82dd91ce9,
         type: 3}
