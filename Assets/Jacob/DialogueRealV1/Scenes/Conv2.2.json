@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "[[\"Mission was a success. I hope all the employers enjoy my first.\"|norm1]] \n[[\"Now that’s done, no more failure on the system.  Hello first!\"|bold1]]\n[[\"My first has been achieved, hopefully. Now to just get away\"|cautious1]]",
+		"position": {
+			"x": 840,
+			"y": 385
+		},
+		"colorID": 0
+	},
+	{
+		"title": "norm1",
+		"tags": "",
+		"body": "[[Continue|Continue]]",
+		"position": {
+			"x": 257,
+			"y": 280
+		},
+		"colorID": 0
+	},
+	{
+		"title": "bold1",
+		"tags": "",
+		"body": "[[Continue|Continue]]",
+		"position": {
+			"x": 840,
+			"y": 34
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cautious1",
+		"tags": "",
+		"body": "[[Continue|Continue]]",
+		"position": {
+			"x": 1256,
+			"y": 214
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Continue",
+		"tags": "",
+		"body": "Secret Squirrel: \"Not so fast kid.  There’s still a paper record.  Get rid of that too, then you are on the same time.  It should be the only room in the building with its lights on. But be warned, it is usually guarded.\"",
+		"position": {
+			"x": 377,
+			"y": 60
+		},
+		"colorID": 0
+	}
+]

@@ -1,0 +1,92 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "[[\"I have arrived. Time to change my grade, should be alright.  And hopefully not spend the rest of my life in prison.\"|normal1]] \n[[\"\"I am outside.  Time for a grade change.\"\"|arrogant1]]\n[[\"I’m here.  I know I can get into the building. I know I can change the records. It’s doing it without a trace that worries me.\"|cautious1]]",
+		"position": {
+			"x": 1582,
+			"y": 354
+		},
+		"colorID": 0
+	},
+	{
+		"title": "normal1",
+		"tags": "",
+		"body": "Secret Squirrel: \"Follow everything that I say and prison shouldn’t be an issue. Just ensure that you worry about the computers and I’ll get you out of there\"\n\n[[\"I am a quick learner, getting the job done should be straightforward\"|normal2]]\n[[\"You doubt me?  I learn quickly, I told you I can get the job done.\"|arrogant2]]\n[[\"I usually pick things up quickly. Never had this much pressure though.\"|cautious2]]",
+		"position": {
+			"x": 1358,
+			"y": 653
+		},
+		"colorID": 0
+	},
+	{
+		"title": "arrogant1",
+		"tags": "",
+		"body": "Secret Squirrel: \"Stay Focused.  Remember what you are about to do is illegal.  Are you sure you know what you are doing?\"\n\n[[\"I am a quick learner, getting the job done should be straightforward\"|normal2]]\n[[\"You doubt me?  I learn quickly, I told you I can get the job done.\"|arrogant2]]\n[[\"I usually pick things up quickly. Never had this much pressure though.\"|cautious2]]",
+		"position": {
+			"x": 1169,
+			"y": 362
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cautious1",
+		"tags": "",
+		"body": "Secret Squirrel: \"Do exactly as I say and that should not be a problem. You worry about the computers, and hiding your efforts. I’ll worry about the escape.\"\n\n[[\"I am a quick learner, getting the job done should be straightforward\"|normal2]]\n[[\"You doubt me?  I learn quickly, I told you I can get the job done.\"|arrogant2]]\n[[\"I usually pick things up quickly. Never had this much pressure though.\"|cautious2]]",
+		"position": {
+			"x": 1138,
+			"y": -34
+		},
+		"colorID": 0
+	},
+	{
+		"title": "normal2",
+		"tags": "",
+		"body": "Secret Squirrel: \"Whilst you may not have experience, there’s still a way to practice. Try getting into a vending machine without leaving proof. That should be on an isolated system. Take as many attempts as you need. While you’re at it.  Get yourself a drink.\"\n\n[[Continue|cont2n]]",
+		"position": {
+			"x": 232,
+			"y": 554
+		},
+		"colorID": 0
+	},
+	{
+		"title": "arrogant2",
+		"tags": "",
+		"body": "Secret Squirrel: \"Of course, you’re unproven. Prove to me you know what you’re doing.  Hack the vending machines.  Leave no trace, get yourself something to eat and drink.  Do this, then I will believe your claim.\"\n\n[[Continue|cont2n]]",
+		"position": {
+			"x": 119,
+			"y": 230
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cautious2",
+		"tags": "",
+		"body": "Secret Squirrel: \"You wouldn’t have got me involved if you didn’t think you could do it. Just concentrate and you will be fine.\"\n\n[[Continue|cont2n]]",
+		"position": {
+			"x": 461,
+			"y": 901
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cont2n",
+		"tags": "",
+		"body": "You: \"Told you I could do it.\"\n\nSecret Squirrel: \"Yeah, yeah.  Don’t let it go to your head.\"\n\n[[Continue|Continue3]]",
+		"position": {
+			"x": -300,
+			"y": 817
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Continue3",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -676,
+			"y": 637
+		},
+		"colorID": 0
+	}
+]
