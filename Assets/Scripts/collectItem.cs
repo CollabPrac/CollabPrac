@@ -10,6 +10,8 @@ public class collectItem : MonoBehaviour
     bool mouseOver = false;
     private Inventory inventory;
     public GameObject itemButton;
+    public GameObject itemImage;
+    public GameObject invButton;
 
     private void Start()
     {
@@ -33,6 +35,8 @@ public class collectItem : MonoBehaviour
                     {
                         Debug.Log("inv2");
                         //item can be added hopefully
+                        itemImage.gameObject.SetActive(true);
+                        invButton.gameObject.SetActive(true);
                         inventory.isFull[i] = true;
                         Instantiate(itemButton, inventory.slots[i].transform, false);
                         Destroy(gameObject);

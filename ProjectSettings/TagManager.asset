@@ -6,6 +6,10 @@ TagManager:
   tags:
   - InventoryObject
   - SceneController
+  - Part0
+  - ActivePart
+  - Part1
+  - End
   layers:
   - Default
   - TransparentFX
