@@ -303,6 +303,41 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8356483874665377048, guid: f94bee32f5d9e664fbef81e658a6f0ce,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8356483874665377048, guid: f94bee32f5d9e664fbef81e658a6f0ce,
+        type: 3}
+      propertyPath: m_AspectRatio
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8356483874665377054, guid: f94bee32f5d9e664fbef81e658a6f0ce,
+        type: 3}
+      propertyPath: videos.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8356483874665377054, guid: f94bee32f5d9e664fbef81e658a6f0ce,
+        type: 3}
+      propertyPath: videos.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8356483874665377054, guid: f94bee32f5d9e664fbef81e658a6f0ce,
+        type: 3}
+      propertyPath: videos.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8356483874665377054, guid: f94bee32f5d9e664fbef81e658a6f0ce,
+        type: 3}
+      propertyPath: videos.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8356483874665377054, guid: f94bee32f5d9e664fbef81e658a6f0ce,
+        type: 3}
+      propertyPath: videos.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f94bee32f5d9e664fbef81e658a6f0ce, type: 3}
 --- !u!1 &1117140603

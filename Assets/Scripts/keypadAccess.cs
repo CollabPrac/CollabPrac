@@ -30,6 +30,7 @@ public class keypadAccess : MonoBehaviour
                 MainCanvas.gameObject.SetActive(false);
                 SecondCanvas.gameObject.SetActive(true);
                 wall.gameObject.SetActive(false);
+                Destroy(gameObject);
             }
         }
     }

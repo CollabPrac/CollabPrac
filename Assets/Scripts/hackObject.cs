@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class hackObject : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class hackObject : MonoBehaviour
         
         if(transform.position.x >= endPoint)
         {
+            SceneManager.LoadScene(1);
             Destroy(gameObject);
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
