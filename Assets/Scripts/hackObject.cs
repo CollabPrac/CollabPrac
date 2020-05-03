@@ -12,11 +12,13 @@ public class hackObject : MonoBehaviour
     public Rigidbody Part3;
     public Rigidbody Part4;
     public Rigidbody Part5;
+    public Transform End;
+    float endPoint;
     int place = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        endPoint = End.transform.position.x;
     }
 
     // Update is called once per frame
@@ -24,6 +26,10 @@ public class hackObject : MonoBehaviour
     {
         Vector3 translation = new Vector3(0, 0, 0);
         
+        if(transform.position.x >= endPoint)
+        {
+            Destroy(gameObject);
+        }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
             place = place + 1;

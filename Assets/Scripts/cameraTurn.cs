@@ -6,7 +6,7 @@ public class cameraTurn : MonoBehaviour
 {
     public bool canTurnLeft;
     public bool canTurnRight;
-    private float rotateWall = 0.2f;
+    private float rotateWall = 0.175f;
     private float rotation;
     public Rigidbody camera;
     // Start is called before the first frame update
