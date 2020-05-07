@@ -11,7 +11,7 @@ public class StartMenu : MonoBehaviour
     public bool menuActive = false;
     void Start()
     {
-        
+        menuActive = true;
     }
 
     public void ToggleMenu()
