@@ -9,10 +9,6 @@ public class StartMenu : MonoBehaviour
     [SerializeField]
     private GameObject menuCanvas;
     public bool menuActive = false;
-    void Start()
-    {
-        menuActive = true;
-    }
 
     public void ToggleMenu()
     {
@@ -23,7 +19,7 @@ public class StartMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             ToggleMenu();
         }
