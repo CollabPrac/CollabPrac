@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "You: \"Got it!\"\n\nSecret Squirrel: \"Great kid.  Now get out of there!\"\n\nYou: \"Success\"\n\n[[Continue|Con]]",
+		"position": {
+			"x": 840,
+			"y": 385
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Con",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 960,
+			"y": 165
+		},
+		"colorID": 0
+	}
+]
