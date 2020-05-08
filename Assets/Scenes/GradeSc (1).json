@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "\"This can’t be right.  I put too much work in for that.  I need to change it; nobody will hire me with this.  I can’t have failed.  I need to do something about this.\"\n\n[[Continue|contone]]",
+		"position": {
+			"x": 815,
+			"y": 360
+		},
+		"colorID": 0
+	},
+	{
+		"title": "contone",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 808,
+			"y": 652
+		},
+		"colorID": 0
+	}
+]
