@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "You: \"Told you I could do it\"\n\nSecret Squirrel: \"Yeah yeah, don't let it go to your head\"\n\nSecret Squirrel: \" Now you need to find an open terminal in the computer lab.  That way it won’t be linked to you.  Let me know when you get there.\"\n\n[[\"That looks like the place\"|norm1]]\n[[\"Target spotted\"|bold1]]\n[[\"Found a lab, I hope it's the right one. I don’t see any others.\"|cautious1]]",
+		"position": {
+			"x": 835,
+			"y": 385
+		},
+		"colorID": 0
+	},
+	{
+		"title": "norm1",
+		"tags": "",
+		"body": "[[Continue|Continuee]]",
+		"position": {
+			"x": 309,
+			"y": 209
+		},
+		"colorID": 0
+	},
+	{
+		"title": "bold1",
+		"tags": "",
+		"body": "[[Continue|Continuee]]",
+		"position": {
+			"x": 824,
+			"y": 110
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cautious1",
+		"tags": "",
+		"body": "[[Continue|Continuee]]",
+		"position": {
+			"x": 1174,
+			"y": 181
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Continuee",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 429,
+			"y": -11
+		},
+		"colorID": 0
+	}
+]
